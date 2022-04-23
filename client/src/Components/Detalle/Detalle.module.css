@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto:wght@100;500&display=swap');
+
+.fondo{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../img/detalle2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 30px 0;
+    justify-content: center;
+    align-items: center;
+}
+.container h1{
+    font-size: 28px;
+    color: rgb(61, 23, 23);
+}
+.container h2{
+    font-size: 20px;
+    color: rgb(61, 23, 23);
+
+}
+.caja{
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+}
+.imgcon{
+    overflow:hidden;
+}
+.img{
+    width: 400px;  
+    transition:all 0.4s ease-in-out;
+
+}
+.imgcon:hover .img{
+    -webkit-transform:scale(1.1);transform:scale(1.1);
+}
+
+.puntuaciones{
+    display: flex;
+    flex-direction: column;
+}
+.puntuaciones h2 {
+    font-size: 23px;
+    margin: 0;
+
+    font-family: 'Dancing Script', cursive;
+}
+.score{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.scoreimg{
+    background-image: url('./img/medalla.png');
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    color:white;
+    position: relative;
+}
+.scoreimg p{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    left: 32.74px;
+    top: 18px
+}
+.salud{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.saludimg{
+    background-image: url('./img/medalla\ salud.png');
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    color:white;
+    position: relative;
+}
+.saludimg p{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    left: 32.74px;
+    top: 18px
+}
+
+.listas{
+    display: flex;
+    margin: 20px;
+    padding: 30px;
+    gap: 50px;
+    background-color: rgba(255, 240, 245, 0.61);
+    border: solid 5px rgb(236, 183, 183);
+    border-style:double;
+}
+.lista{
+    display: flex;
+    flex-direction: column;
+}
+.lista p{
+font-weight: 500;}
+.puntos{
+    list-style: none;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.explicacion{
+    background-color: rgba(255, 240, 245, 0.61);;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    width: 70%;
+}
+.texto{
+    font-weight: 400;
+    text-align: justify;
+
+}

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+.receta{
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 2px  2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    /* background-color:antiquewhite;  */ 
+    background-image: url(./img/Receta1.jpg);
+    background-size: cover;
+}
+.receta:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px  16px rgba(0, 0, 0, 0.2);
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+}
+h1{
+    padding: 5px;
+    margin: 0;
+}
+.titulo{
+    text-decoration: none;
+    font-size: 10px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    padding: auto;
+}
+.titulo:hover{
+    color: rgb(65, 56, 56);
+    text-shadow: black 0.3em 0.3em 0.6em
+}
+
+.img{
+    width: 350px;
+    height: 220px;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+
+.lista{
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+}
+
+.dieta{
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.button{
+    background-color: rgb(194, 123, 114);
+    border: solid rgb(236, 165, 165) 2px;
+    border-radius: 5px;
+    color: white;
+    margin: 0 10px;
+    padding: 3px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.button:hover{
+    background-color: rgb(236, 165, 165);
+    border: solid 2px rgb(194, 123, 114);
+}
+
+.dyp{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+.puntuacion{
+    background-image: url(./img/medalla.png);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    color:white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+}
+.puntuacion p{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    left: 32.74px;
+    top: 15px
+}

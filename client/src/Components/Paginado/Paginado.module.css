@@ -1,0 +1,27 @@
+.paginas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagina{
+    background-color: rgb(194, 123, 114);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin: 0 10px;
+    padding: 4px 10px;
+  }
+.pagina:hover{
+  background-color: rgb(236, 165, 165);
+  border: none;
+}
+
+.paginaactual{
+  background-color: salmon;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin: 0 10px;
+  padding: 5px 10px;
+}

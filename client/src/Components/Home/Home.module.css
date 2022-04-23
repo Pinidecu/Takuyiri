@@ -1,0 +1,49 @@
+.titulo{
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    margin: 0;
+}
+
+.logo{
+    width: 350px;
+}
+.centro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fullscreen{
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    height:100%;
+    width:100%;
+    background-image: url('../img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    /* background-color:rgb(250, 127, 106); */
+    background-color:rgb(175, 175, 117);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: solid 2px rgb(151, 151, 72);
+    border-radius: 5px;
+    padding: 2px 5px;
+    margin: 7px;
+}
+.button:hover{
+    background-color: rgb(116, 116, 60);
+    border: solid 2px rgb(175, 175, 117);
+}

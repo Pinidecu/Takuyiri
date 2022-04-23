@@ -1,0 +1,27 @@
+.buscador{
+    align-self: center;
+}
+
+.input{
+    background-color: rgb(143, 78, 66);
+    border: solid 1px rgb(143, 78, 66);
+    height: 23px;
+    padding-left: 8px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.buscar{
+    background-color: rgb(143, 78, 66);
+    height: 27px;
+    border: solid 1px rgb(143, 78, 66);
+    border-left: solid 1px rgb(126, 59, 46);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-right: 8px;
+}
+.buscar:hover{
+    background-color: rgb(194, 123, 114);
+    color: white;
+    border: solid 1px rgb(145, 121, 118);
+}

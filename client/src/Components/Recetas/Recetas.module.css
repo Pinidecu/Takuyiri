@@ -1,0 +1,40 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  background-image: url(./img/fondo.png);
+  background-color: rgb(241, 204, 189);
+  padding: 10px;
+}
+
+.filtros{
+  width: 50%;
+  align-self: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.recetas {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+  }
+
+  .nueva{
+    background-color: rgb(218, 169, 169);
+  }
+  .nuevareceta{
+    text-decoration: none;
+    color: black;
+  }
+
+  .paginas{
+    background-color: red;
+    border: solid black 2px;
+    border-radius: 5px;
+    margin: 0 10px;
+    padding: 0 8px;
+
+  }

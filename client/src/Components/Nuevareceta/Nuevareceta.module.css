@@ -1,0 +1,99 @@
+.container{
+    background-color: rgba(117, 111, 101, 0.507);
+    margin: auto;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 15px;
+    width: 600px;
+    font-family : inherit;
+    font-size   : 100%;
+    display: flex;
+    justify-content: center;
+
+    /* background-image: url('../img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+}
+
+.form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div{
+    margin: 0, auto;
+}
+label{
+    color: black;
+}
+.input{
+    padding : 10px;
+    margin  : 5px 0;
+    width: 516px;
+}
+.textarea {
+    display : block;
+
+    padding : 10px;
+    margin  : 5px 0;
+    width   : 516px;
+    height  : 100px;
+
+    resize  : none;
+    overflow: auto;
+  }
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.list{
+    padding: 5px;
+    margin: 0;
+}
+.od{
+    width: 135px;
+}
+.button{
+    background-color:rgb(250, 127, 106);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: solid 2px rgb(165, 113, 105);
+    border-radius: 5px;
+    padding: 2px 5px;
+    margin: 7px;
+    width: 100%;
+}
+.button:hover{
+    background-color: rgb(165, 113, 105);
+    border: solid 2px rgb(250, 127, 106);
+}
+
+.danger{
+    color: red;
+    font-size: 12px;
+    margin: 0;
+}
+
+.fullscreen{
+    
+    height:100%;
+    width:100%;
+    background-image: url('../img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
